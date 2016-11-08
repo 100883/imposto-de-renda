@@ -16,13 +16,22 @@ public class PessoaJuridica extends Pessoa{
     
     //Atributos
     private int Cnpj = 0;
+    private String razaoSocial = "";
     
     //Metodos
     public int getCnpj() {
         return Cnpj;
     }
+
+    public String getRazaoSocial() {
+        return razaoSocial;
+    }
     public void setCnpj(int Cnpj) {
         this.Cnpj = Cnpj;
+    }
+
+    public void setRazaoSocial(String razaoSocial) {
+        this.razaoSocial = razaoSocial;
     }
     @Override
     public String getNome() {
